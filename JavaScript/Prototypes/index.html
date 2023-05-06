@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banking Account</title>
+</head>
+<body>
+    <h1>User's Account</h1>
+    <section>
+        <form>  
+            <label for="currAmount">Current Amount: <span style="color: green;">$</span>
+            <span id="amount" style="color: green;">1000</span></label>
+            <label for="deposit">Deposit an amount of money: </label>
+        
+            <input id="deposit" type="number" name="deposit" value="" min="0" step="10">
+            <input id="depositButton" type="button" value=" Deposit " onclick="depositMoney()">
+            
+            <label for="withdraw">Withdraw an amount of money: </label>
+        
+            <input id="withdraw" type="number" name="withdraw" value="" min="0" step="10">
+            <input id="withdrawButton" type="button" value="Withdraw" onclick="withdrawMoney()">
+        </form>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+<!-- // function msg(){
+
+//     // alert('Sex')
+//     // document.querySelector('.')
+
+//     // let obj = {
+//     //     jujmps: true,
+//     // }
+
+//     // let obj2 = {
+//     //     eats: true,
+//     // }
+
+//     // obj._proto_
+//     // console.log()
+// } -->
